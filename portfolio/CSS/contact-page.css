@@ -20,6 +20,7 @@ h1 {
   font-family: Titan One, sans-serif;
   font-size: 40pt;
   letter-spacing: 2px;
+  margin-bottom: 8%;
 }
 
 h2 {
@@ -28,9 +29,29 @@ h2 {
   letter-spacing: 1.5px;
   color: rgb(204, 152, 61);
   padding-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-p {
-  background-color: black;
+button {
+  width: 265px;
+  height: 40px;
+  color: rgb(255, 251, 245);
+  background-color: rgb(26, 114, 100);
+  border-radius: 6px;
+  font-size: 20px;
+  border: none;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 6px;
+  border-color: lightgrey;
+  padding-left: 10px;
+}
+
+#message {
+  height: 100px;
+  padding-top: -100px;
 }
