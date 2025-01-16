@@ -1,5 +1,7 @@
+/*Font*/
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
+/*Color changing background*/
 body {
   /*the following 8 lines are from this video: https://www.youtube.com/watch?v=Ke5lTrot16g, accessed: 15.01.25*/
   /*make the background color split up*/
@@ -14,6 +16,7 @@ body {
   margin-left: 40px;
 }
 
+/*"Let´s Chat" button*/
 button {
   font-size: 20px;
   background-color: rgb(238, 173, 204);

@@ -1,5 +1,7 @@
+/*Font*/
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
+/*Color changing background*/
 body {
   /*the following 8 lines are from this video: https://www.youtube.com/watch?v=Ke5lTrot16g, accessed: 15.01.25*/
   /*make the background color split up*/
@@ -32,6 +34,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+/*Submit Button*/
 button {
   width: 265px;
   height: 40px;
@@ -42,6 +45,7 @@ button {
   border: none;
 }
 
+/*Boxes to write in*/
 input {
   width: 250px;
   height: 30px;
@@ -51,6 +55,7 @@ input {
   padding-left: 10px;
 }
 
+/*Message box*/
 #message {
   height: 100px;
   padding-top: -100px;
