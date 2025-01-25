@@ -1,0 +1,126 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/*Header with background-color*/
+header {
+  background-color: palegoldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transition: padding-top 0.5s ease-out;
+  transition: padding-bottom 0.5s ease-out;
+}
+
+/*Padding (background-color will get smaler as the screen gets smaler*/
+@media (max-width: 770px) {
+  header {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-right: 5vw;
+}
+
+li {
+  color: black;
+  margin-left: 2rem;
+  font-family: Onest, sans-serif;
+  font-weight: semiBold;
+  font-size: 1.3rem;
+}
+
+/*Alina headline*/
+h1 {
+  margin-top: 3rem;
+  font-family: Almarai, sans-serif;
+  /*The folling line is from: https://www.youtube.com/watch?v=rIOIeoX6QNw, accessed: 23.01.2025*/
+  font-size: clamp(5rem, 25vw, 30rem);
+  letter-spacing: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: font-size 0.3s ease;
+  text-align: center;
+}
+
+/*CATEGORY SECTION*/
+/*Making the grid for the text*/
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3vw;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*Set the style of the text*/
+.category-text {
+  width: 100%;
+  text-align: justify;
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: 14px;
+}
+
+/*Text on the left "Henseleit..."*/
+#text-one {
+  width: 75%;
+  max-width: 200px;
+}
+
+/*Text on the right "I graduated..." + border*/
+#text-two {
+  width: 100%;
+  max-width: 500px;
+  padding-left: 2rem;
+  border-left: 1.5px solid black;
+}
+
+/*Tries to keep #text-one aligned with left side of h1*/
+@media (min-width: 2000px) {
+  #text-one {
+    margin-left: 7%;
+    transition: margin-left 0.5s ease-out;
+  }
+}
+
+footer {
+  background-color: palegoldenrod;
+  padding-bottom: 10rem;
+  padding-top: 1rem;
+  transition: padding-top 0.5s ease-out;
+  transition: padding-bottom 0.5s ease-out;
+  margin-top: 95px;
+}
+
+.footer-button {
+  margin-left: 10%;
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: 14px;
+}
+
+button {
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: 14px;
+  background-color: palegoldenrod;
+  color: black;
+  border-radius: 6px;
+  margin-top: 70px;
+  border: 0.5px solid black;
+  width: 110px;
+  height: 30px;
+}
+
+#contact-information {
+  margin-top: 20px;
+}

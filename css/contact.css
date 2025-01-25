@@ -1,0 +1,142 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+/*Header with background-color*/
+header {
+  background-color: #eee8aa;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  transition: padding-top 0.5s ease-out;
+  transition: padding-bottom 0.5s ease-out;
+}
+
+/*Padding (background-color will get smaler as the screen gets smaler*/
+@media (max-width: 770px) {
+  header {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-right: 5vw;
+}
+
+li {
+  color: black;
+  margin-left: 2rem;
+  font-family: Onest, sans-serif;
+  font-weight: semiBold;
+  font-size: 1.3rem;
+}
+
+/*Contact headline*/
+h1 {
+  font-family: Almarai, sans-serif;
+  /*The folling line is from: https://www.youtube.com/watch?v=rIOIeoX6QNw, accessed: 23.01.2025*/
+  font-size: clamp(2rem, 13vw, 20rem);
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 5rem;
+  transition: font-size 0.3s ease;
+  text-align: center;
+}
+
+/*CATEGORY SECTION*/
+/*Making the grid for the text*/
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3vw;
+  margin-left: 10%;
+  margin-right: 55rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+
+  /*Background-Color*/
+  /* border-radius: 16px;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+  background-color: rgb(251, 249, 234); */
+}
+
+/*background for <p>*/
+.category-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  background-color: rgb(251, 249, 234);
+  border-radius: 6px; /* Same border radius as input */
+  padding: 10px;
+}
+
+/*Boxes to write in*/
+input {
+  width: 250px;
+  height: 40px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+/*Message box*/
+#message {
+  height: 100px;
+  padding-top: -100px;
+}
+
+footer {
+  background-color: #eee8aa;
+  padding-bottom: 10rem;
+  padding-top: 1rem;
+  transition: padding-top 0.5s ease-out;
+  transition: padding-bottom 0.5s ease-out;
+  margin-top: 95px;
+}
+
+.footer-button {
+  margin-left: 10%;
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: 14px;
+}
+
+button {
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: 14px;
+  background-color: palegoldenrod;
+  color: black;
+  border-radius: 6px;
+  margin-top: 70px;
+  border: 0.5px solid black;
+  width: 110px;
+  height: 30px;
+}
+
+#submit-button {
+  margin-top: 1rem;
+  width: 265px;
+  height: 40px;
+  background-color: rgb(170, 176, 238);
+  color: white;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#contact-information {
+  margin-top: 20px;
+}

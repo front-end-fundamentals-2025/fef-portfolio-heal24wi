@@ -3,21 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="contact-page.css" />
-    <title>My Portfolio - Contact</title>
+    <title>I am Alina - Contact</title>
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <header>
-      <h1>Say Hello</h1>
+      <nav>
+        <ul>
+          <a href="index.html"><li>ABOUT ME</li></a>
+          <a href="overview.html"
+            ><li><Obj>PROJECTS</Obj></li></a
+          <a href="contact.html"><li>CONTACT</li></a>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <!--The folling 3 lines are inspired by https://www.youtube.com/watch?v=-HeadgoqJ7A, accessed: 16.01.25-->
-      <p><input type="text" placeholder="Name" /></p>
-      <p><input type="text" placeholder="E-Mail" /></p>
-      <p><input type="text" placeholder="Message" id="message" /></p>
+      <h1>CONTACT ME</h1>
 
-      <button>Submit</button>
+      <section class="category-container">
+        <!--The folling 3 lines are inspired by https://www.youtube.com/watch?v=-HeadgoqJ7A, accessed: 16.01.25-->
+        <p class="category-text">
+          <input type="text" placeholder="Name" />
+        </p>
+        <p class="category-text"><input type="text" placeholder="E-Mail" /></p>
+        <p class="category-text">
+          <input type="text" placeholder="Message" id="message" />
+        </p>
+
+        <button id="submit-button">Submit</button>
+      </section>
     </main>
+
+    <footer>
+      <section class="footer-button">
+        <a href="contact.html"><button>LET'S CHAT</button> </a>
+
+        <p id="contact-information">
+          Email<br />
+          henseleit.alina@gmail.com <br />
+          <br />
+          Phone<br />
+          +49 170 1234567
+        </p>
+      </section>
+    </footer>
   </body>
 </html>
