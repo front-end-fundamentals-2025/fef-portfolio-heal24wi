@@ -44,9 +44,10 @@ h1 {
   /*The folling line is from: https://www.youtube.com/watch?v=rIOIeoX6QNw, accessed: 23.01.2025*/
   font-size: clamp(2rem, 13vw, 20rem);
   letter-spacing: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   padding-left: 5rem;
+  padding-right: 5rem;
   transition: font-size 0.3s ease;
   text-align: center;
 }
@@ -59,12 +60,10 @@ h1 {
   gap: 3vw;
   margin-left: 10%;
   margin-right: 10%;
-  font-family: Onest, sans-serif;
-  font-style: medium;
-  font-size: clamp(1rem, 2vw, 5rem);
 }
 
-@media (max-width: 768px) {
+/*If the screen is smaler than 760px, the grid will only have 1fr*/
+@media (max-width: 800px) {
   .category-container {
     grid-template-columns: 1fr;
   }
@@ -72,8 +71,12 @@ h1 {
 
 figcaption {
   color: black;
+  font-family: Onest, sans-serif;
+  font-style: medium;
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
+/*How much space the image will take up in the grid*/
 .category-image {
   width: 100%;
 }

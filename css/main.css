@@ -61,6 +61,12 @@ h1 {
   margin-right: 10%;
 }
 
+@media (max-width: 740px) {
+  .category-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*Set the style of the text*/
 .category-text {
   width: 100%;
