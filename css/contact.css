@@ -116,6 +116,12 @@ button {
   height: 30px;
 }
 
+/*If you hover the button*/
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 #submit-button {
   margin-top: 1rem;
   width: 265px;
@@ -127,6 +133,7 @@ button {
   padding-right: 0;
 }
 
+/*Email and phone number*/
 #contact-information {
   margin-top: 20px;
 }

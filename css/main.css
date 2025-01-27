@@ -114,6 +114,7 @@ footer {
   font-size: 14px;
 }
 
+/*Lets chat button*/
 button {
   font-family: Onest, sans-serif;
   font-style: medium;
@@ -127,6 +128,13 @@ button {
   height: 30px;
 }
 
+/*If you hover the button*/
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Email and phone number*/
 #contact-information {
   margin-top: 20px;
 }
