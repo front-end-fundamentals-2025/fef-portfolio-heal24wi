@@ -45,7 +45,7 @@ h1 {
   font-size: clamp(2rem, 13vw, 20rem);
   letter-spacing: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20pxpx;
   padding-left: 5rem;
   padding-right: 5rem;
   transition: font-size 0.3s ease;
@@ -53,30 +53,23 @@ h1 {
 }
 
 /*CATEGORY SECTION*/
-/*Making the grid for the text*/
+/*Making the grid for the input boxes*/
 .category-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 3vw;
-  margin-left: 10%;
-  margin-right: 55rem;
-  margin-top: 5rem;
-  margin-bottom: 0;
+  text-align: center;
 }
 
-/*the following three lines are from chatgpt: https://chatgpt.com/share/679602c1-391c-8010-9fad-52b56f926cb9, accessed: 26.01.25 */
-.category-container > * {
-  grid-column: 1; /* Places all items in the first column */
+/* Centers the  submit button horizontally within the grid */
+#submit-button {
+  justify-self: center;
+  align-self: center;
 }
 
-/*background for <p>*/
 .category-text {
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 0;
-  display: inline-block;
-  background-color: rgb(251, 249, 234);
-  border-radius: 6px; /* Same border radius as input */
-  padding: 20px;
 }
 
 /*Boxes to write in*/
@@ -92,7 +85,6 @@ input {
 /*Message box*/
 #message {
   height: 100px;
-  padding-top: -100px;
 }
 
 footer {

@@ -12,6 +12,7 @@ header {
   padding-top: 1rem;
   transition: padding-top 0.5s ease-out;
   transition: padding-bottom 0.5s ease-out;
+  margin-bottom: 20px;
 }
 
 /*Padding (background-color will get smaler as the screen gets smaler*/
@@ -37,13 +38,44 @@ li {
   font-size: 1.3rem;
 }
 
+/*moving fish*/
+#moving-fish {
+  width: 10vw;
+  animation-name: fish;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fish {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-13rem);
+  }
+}
+
+@media (min-width: 900px) {
+  #moving-fish {
+    animation-duration: 18s;
+  }
+}
+
+@media (max-width: 800px) {
+  #moving-fish {
+    width: 7rem;
+    margin-bottom: 1rem;
+  }
+}
+
 /*Contact headline*/
 h1 {
   font-family: Almarai, sans-serif;
   /*The folling line is from: https://www.youtube.com/watch?v=rIOIeoX6QNw, accessed: 23.01.2025*/
   font-size: clamp(2rem, 13vw, 20rem);
   letter-spacing: 0px;
-  margin-top: 80px;
+  margin-top: -40px;
   margin-bottom: 80px;
   padding-left: 5rem;
   padding-right: 5rem;
