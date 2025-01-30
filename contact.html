@@ -23,12 +23,16 @@
 
       <section class="category-container">
         <!--The folling 3 lines are inspired by https://www.youtube.com/watch?v=-HeadgoqJ7A, accessed: 16.01.25-->
-        <p class="category-text">
-          <input type="text" placeholder="Name" />
+        <p class="category-text" id="name">
+          <label for="name">Name</label>
+          <input type="text" placeholder="Enter Your Name" />
         </p>
-        <p class="category-text"><input type="text" placeholder="E-Mail" /></p>
-        <p class="category-text" >
-          <input type="text" placeholder="Message" id="message" />
+        <p class="category-text" id="e-mail">
+          <label for="e-mail">E-Mail</label>
+          <input type="text" placeholder="Enter Your E-Mail" /></p>
+        <p class="category-text" id="message">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Leave A Message"></textarea>
         </p>
 
         <button id="submit-button">Submit</button>

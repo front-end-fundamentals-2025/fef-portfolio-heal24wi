@@ -72,6 +72,46 @@ h1 {
   margin-bottom: 0;
 }
 
+/*Labels for the input boxes*/
+#name {
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+}
+
+#e-mail {
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+}
+
+#message {
+  font-family: Almarai, sans-serif;
+  font-size: 16px;
+  height: 100px;
+}
+
+/*Message box*/
+textarea {
+  width: 240px;
+  height: 100px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 10px;
+  /*The following !important is from: https://www.w3schools.com/css/css_important.asp accessed:30.01.25*/
+  font-family: Almarai, sans-serif !important;
+  font-size: 15px !important;
+}
+
+/*putting the lables on top of the input boxes and not on their left side*/
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Boxes to write in*/
 input {
   width: 250px;
@@ -80,13 +120,22 @@ input {
   border-radius: 6px;
   border: 1px solid black;
   padding-left: 10px;
+  font-family: Almarai, sans-serif;
+  font-size: 13px;
 }
 
-/*Message box*/
-#message {
-  height: 100px;
+#submit-button {
+  margin-top: 1rem;
+  width: 265px;
+  height: 40px;
+  background-color: rgb(170, 176, 238);
+  color: white;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
+/*Footer part*/
 footer {
   background-color: #eee8aa;
   padding-bottom: 10rem;
@@ -120,17 +169,6 @@ button {
 button:hover {
   background-color: black;
   color: white;
-}
-
-#submit-button {
-  margin-top: 1rem;
-  width: 265px;
-  height: 40px;
-  background-color: rgb(170, 176, 238);
-  color: white;
-  border: none;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 /*Email and phone number*/
