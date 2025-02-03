@@ -51,6 +51,28 @@ h1 {
   text-align: center;
 }
 
+/*Changing background color with keyframe*/
+#moving-header {
+  animation-name: color-animation;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes color-animation {
+  0% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: rgb(228, 222, 255);
+  }
+
+  100% {
+    background-color: white;
+  }
+}
+
 /*CATEGORY SECTION*/
 /*Making the grid for the text*/
 .category-container {
