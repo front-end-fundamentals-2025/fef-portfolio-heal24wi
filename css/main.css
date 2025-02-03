@@ -52,7 +52,7 @@ h1 {
 }
 
 /*Changing background color with keyframe*/
-#moving-header {
+/* #moving-header {
   animation-name: color-animation;
   animation-duration: 1s;
   animation-iteration-count: 1;
@@ -71,7 +71,7 @@ h1 {
   100% {
     background-color: white;
   }
-}
+} */
 
 /*CATEGORY SECTION*/
 /*Making the grid for the text*/
