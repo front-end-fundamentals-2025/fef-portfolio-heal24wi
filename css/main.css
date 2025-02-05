@@ -54,22 +54,22 @@ h1 {
 /*Changing background color with keyframe*/
 #moving-header {
   animation-name: color-animation;
-  animation-duration: 1s;
+  animation-duration: 0.8s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
 
 @keyframes color-animation {
   0% {
-    background-color: white;
+    color: black;
   }
 
   50% {
-    background-color: rgb(228, 222, 255);
+    color: rgb(228, 222, 255);
   }
 
   100% {
-    background-color: white;
+    color: black;
   }
 }
 
