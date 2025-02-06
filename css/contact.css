@@ -38,18 +38,40 @@ li {
   font-size: 1.3rem;
 }
 
+/*If you click submit button - js animation*/
+.bold {
+  font-family: Onest, sans-serif;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.bold-two {
+  font-family: Onest, sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
 /*Contact headline*/
 h1 {
   font-family: Almarai, sans-serif;
   /*The folling line is from: https://www.youtube.com/watch?v=rIOIeoX6QNw, accessed: 23.01.2025*/
   font-size: clamp(2rem, 13vw, 20rem);
-  letter-spacing: 0px;
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 20px;
   padding-left: 5rem;
   padding-right: 5rem;
   transition: font-size 0.3s ease;
   text-align: center;
+}
+
+@media (max-width: 1400px) {
+  h1 {
+    font-size: clamp(1rem, 10vw, 20rem);
+  }
 }
 
 /*CATEGORY SECTION*/
@@ -100,6 +122,10 @@ textarea {
   /*The following !important is from: https://www.w3schools.com/css/css_important.asp accessed:30.01.25*/
   font-family: Almarai, sans-serif !important;
   font-size: 15px !important;
+}
+
+#message {
+  margin-bottom: 50px;
 }
 
 /*putting the lables on top of the input boxes and not on their left side*/

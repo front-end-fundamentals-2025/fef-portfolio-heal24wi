@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I am Alina - Contact</title>
     <link rel="stylesheet" href="css/contact.css" />
+    <script src="java-script/animation.js" defer></script>
   </head>
   <body>
     <header>
@@ -18,18 +19,19 @@
       </nav>
     </header>
 
-    <main>
+
+    <main id="main-part">
       <h1>CONTACT ME</h1>
 
       <section class="category-container">
         <!--The folling 3 lines are inspired by https://www.youtube.com/watch?v=-HeadgoqJ7A, accessed: 16.01.25-->
         <p class="category-text" id="name">
           <label for="name">Name</label>
-          <input type="text" placeholder="Enter Your Name" />
+          <input id="input-name" type="text" placeholder="Enter Your Name" />
         </p>
         <p class="category-text" id="e-mail">
           <label for="e-mail">E-Mail</label>
-          <input type="text" placeholder="Enter Your E-Mail" /></p>
+          <input id="input-e-mail" type="text" placeholder="Enter Your E-Mail" /></p>
 
           <!--I got the textarea from my friend Lovisa-->
         <p class="category-text" id="message">
@@ -41,7 +43,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="footer-part">
       <section class="footer-button">
         <a href="contact.html"><button>LET'S CHAT</button> </a>
 
